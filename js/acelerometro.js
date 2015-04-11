@@ -7,7 +7,7 @@ var ac = {
                                    'Z: ' + acc.z);
     },
     error: function(err){
-        alert('Acelerometro Error: '+err.code);
+        alert('Acelerómetro Error: '+err.code);
     },
     opc: { frequency: 500 },
     iniciar: function(){

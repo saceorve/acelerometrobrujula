@@ -9,12 +9,23 @@ var fn = {
     },
     init: function(){
         $('#acelerometro ul.individual li').tap(fn.acTap);
+        $('#brujula ul.individual li').tap(fn.brTap);
     },
     acTap: function(){
         if($(this).index()==0)
             ac.iniciar();//Iniciar
         else
             ac.detener();//Detener
+    },
+    brTap: function(){
+        switch($(this).index()){
+            case 0:
+                br.iniciar();//Iniciar
+                break;
+            case 1:
+                br.detener();//Detener
+                break;
+        }
     }
 };
 $(fn.ready);

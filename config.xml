@@ -17,9 +17,10 @@
         </description>
 
         <author href="http://cenet.mx" email="you@youremail.com">
-            Sandy
+            Carlos Celma
         </author>
         
         <gap:plugin name="org.apache.cordova.device-motion" />
+        <gap:plugin name="org.apache.cordova.device-orientation" />
 
     </widget>
