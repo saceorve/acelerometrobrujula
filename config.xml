@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "acelerometrobrujula"
+        version     = "1.0.0"
+        versionCode = "10" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.7.0" />
+
+        <name>AcelerometroBrujula</name>
+
+        <description>
+            Aplicación de acelerómetro con brújula 
+        </description>
+
+        <author href="http://expika.com" email="sorozco@expika.com">
+            Sandy
+        </author>
+        
+        <gap:plugin name="org.apache.cordova.device-motion" />
+
+    </widget>
