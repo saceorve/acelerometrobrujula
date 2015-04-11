@@ -2,7 +2,7 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "mx.cenet.acelerometrobrujula"
+        id          = "acelerometrobrujula"
         version     = "1.0.0"
         versionCode = "10" >
 
@@ -16,8 +16,8 @@
             Aplicación que utiliza el Acelerómetro y la Brújula del dispositivo
         </description>
 
-        <author href="http://cenet.mx" email="you@youremail.com">
-            Carlos Celma
+        <author href="http://expika.com" email="sorozco@expika.com">
+            Sandy
         </author>
         
         <gap:plugin name="org.apache.cordova.device-motion" />
